@@ -1,4 +1,4 @@
-package br.com.caelum.leilao.dominio;
+package com.br.zup.tests;
 
 public class Usuario {
 

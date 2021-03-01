@@ -1,4 +1,4 @@
-package br.com.caelum.leilao.dominio;
+package com.br.zup.tests;
 
 import java.util.ArrayList;
 import java.util.Collections;
