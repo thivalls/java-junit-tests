@@ -30,8 +30,8 @@ public class MainClass {
 
 		// Parte 2 - Executando classe Avaliador
 		Avaliador avaliador = new Avaliador();
-		avaliador.avaliaMaiorLance(leilao);
-		avaliador.avaliaMenorLance(leilao);
+		avaliador.avaliaLance(leilao);
+//		avaliador.avaliaLance(leilao);
 
 		// Parte 3 - Validando resultados
 		System.out.println(1200 == avaliador.getMaiorLance());

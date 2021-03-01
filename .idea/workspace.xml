@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2bc4b5-1420-44ae-9f80-13626aabc942" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/br/zup/tests/servico/AvaliadorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/Lance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/Leilao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Lance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-tests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/Leilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/Leilao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/servico/Avaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/servico/Avaliador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/br/zup/tests/AvaliadorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,30 +48,55 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.br.zup.tests.servico" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.br.zup.tests.servico" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.br.zup.tests.servico" />
       <recent name="com.br.zup.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AvaliadorTest">
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.MainClass" />
+  <component name="RunManager" selected="JUnit.AnoBissextoTest">
+    <configuration name="AnoBissextoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.br.zup.tests.*" />
+          <option name="PATTERN" value="com.br.zup.tests.servico.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.br.zup.tests.servico" />
+      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.servico.AnoBissextoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AvaliadorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FiltroDeLancesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.zup.tests.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.br.zup.tests.servico" />
+      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.servico.FiltroDeLancesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeilaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests" />
       <extension name="coverage">
         <pattern>
@@ -85,13 +105,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.br.zup.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.AvaliadorTest" />
+      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.LeilaoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeilaoTest.deveDobrarUltimoLanceDadoPorUmUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests" />
       <extension name="coverage">
         <pattern>
@@ -100,17 +120,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.br.zup.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.TestsApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.LeilaoTest" />
+      <option name="METHOD_NAME" value="deveDobrarUltimoLanceDadoPorUmUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeilaoTest.naoDeveCriarUmLanceDobradoCasoJaExista5LancesAnteriores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.zup.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.br.zup.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.LeilaoTest" />
+      <option name="METHOD_NAME" value="naoDeveCriarUmLanceDobradoCasoJaExista5LancesAnteriores" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AvaliadorTest" />
-        <item itemvalue="JUnit.TestsApplicationTests" />
-        <item itemvalue="Application.MainClass" />
+        <item itemvalue="JUnit.AnoBissextoTest" />
+        <item itemvalue="JUnit.LeilaoTest" />
+        <item itemvalue="JUnit.LeilaoTest.naoDeveCriarUmLanceDobradoCasoJaExista5LancesAnteriores" />
+        <item itemvalue="JUnit.LeilaoTest.deveDobrarUltimoLanceDadoPorUmUsuario" />
+        <item itemvalue="JUnit.FiltroDeLancesTest" />
       </list>
     </recent_temporary>
   </component>
