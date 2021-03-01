@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2bc4b5-1420-44ae-9f80-13626aabc942" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/br/zup/tests/servico/AvaliadorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/Leilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/Leilao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/servico/Avaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/zup/tests/servico/Avaliador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/br/zup/tests/AvaliadorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/br/zup/tests/servico/AvaliadorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/br/zup/tests/servico/AvaliadorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
       <recent name="com.br.zup.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnoBissextoTest">
+  <component name="RunManager" selected="JUnit.AvaliadorTest.deveAvaliarLancesEmOrdemCrescente">
     <configuration name="AnoBissextoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests" />
       <extension name="coverage">
@@ -81,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FiltroDeLancesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AvaliadorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +86,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.br.zup.tests.servico" />
-      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.servico.FiltroDeLancesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.servico.AvaliadorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvaliadorTest.deveAvaliarLancesEmOrdemCrescente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.zup.tests.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.br.zup.tests.servico" />
+      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.servico.AvaliadorTest" />
+      <option name="METHOD_NAME" value="deveAvaliarLancesEmOrdemCrescente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvaliadorTest.naoDeveAvaliarLeiloesSemLances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.zup.tests.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.br.zup.tests.servico" />
+      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.servico.AvaliadorTest" />
+      <option name="METHOD_NAME" value="naoDeveAvaliarLeiloesSemLances" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,45 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeilaoTest.deveDobrarUltimoLanceDadoPorUmUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.br.zup.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.br.zup.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.LeilaoTest" />
-      <option name="METHOD_NAME" value="deveDobrarUltimoLanceDadoPorUmUsuario" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeilaoTest.naoDeveCriarUmLanceDobradoCasoJaExista5LancesAnteriores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.br.zup.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.br.zup.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.br.zup.tests.LeilaoTest" />
-      <option name="METHOD_NAME" value="naoDeveCriarUmLanceDobradoCasoJaExista5LancesAnteriores" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AvaliadorTest.deveAvaliarLancesEmOrdemCrescente" />
+        <item itemvalue="JUnit.AvaliadorTest" />
+        <item itemvalue="JUnit.AvaliadorTest.naoDeveAvaliarLeiloesSemLances" />
         <item itemvalue="JUnit.AnoBissextoTest" />
         <item itemvalue="JUnit.LeilaoTest" />
-        <item itemvalue="JUnit.LeilaoTest.naoDeveCriarUmLanceDobradoCasoJaExista5LancesAnteriores" />
-        <item itemvalue="JUnit.LeilaoTest.deveDobrarUltimoLanceDadoPorUmUsuario" />
-        <item itemvalue="JUnit.FiltroDeLancesTest" />
       </list>
     </recent_temporary>
   </component>

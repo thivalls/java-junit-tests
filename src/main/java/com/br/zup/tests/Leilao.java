@@ -31,7 +31,7 @@ public class Leilao {
     }
 
     private boolean podeDarLance(Usuario usuario) {
-        return !getUsuarioUltimoLance().equals(usuario) && getTotalDeLances(usuario) < 5;
+        return !getUsuarioUltimoLance().equals(usuario) && (getTotalDeLances(usuario) < 5);
     }
 
     private int getTotalDeLances(Usuario usuario) {
@@ -43,7 +43,7 @@ public class Leilao {
     }
 
     private Usuario getUsuarioUltimoLance() {
-        return lances.get(lances.size() - 1).getUsuario();
+        return lances.get((lances.size() - 1)).getUsuario();
     }
 
     public String getDescricao() {
@@ -53,6 +53,4 @@ public class Leilao {
     public List<Lance> getLances() {
         return Collections.unmodifiableList(lances);
     }
-
-
 }
